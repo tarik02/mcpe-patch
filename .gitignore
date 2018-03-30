@@ -1,0 +1,7 @@
+dextools
+
+*.apk
+*.jar
+*.keystore
+tmp
+
