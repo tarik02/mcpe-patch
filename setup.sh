@@ -6,4 +6,4 @@ mv dex-tools-2.1-SNAPSHOT dextools
 rm dex-tools-2.1-SNAPSHOT.zip
 
 echo "Downloading android jar..."
-wget https://github.com/Sable/android-platforms/blob/master/android-17/android.jar?raw=true
+wget https://github.com/Sable/android-platforms/blob/master/android-17/android.jar?raw=true -O android.jar
