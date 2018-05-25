@@ -9,7 +9,7 @@ Before using you need to setup it:
 ./setup.sh
 ```
 This will download the needed dependencies:
- - [dextools](https://github.com/pxb1988/dextools)
+ - [dextools](https://github.com/pxb1988/dex2jar)
  - android.jar
 
 ## Patching
