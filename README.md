@@ -1,6 +1,27 @@
 # MCPE patch
 Script to patch MCPE for android to allow access to XBOX login in patched APK.
 
+Actual MCPE version: 1.4.1
+
+## Setup
+Before using you need to setup it:
+```
+./setup.sh
+```
+This will download the needed dependencies:
+ - [dextools](https://github.com/pxb1988/dextools)
+ - android.jar
+
+## Patching
+To patch:
+```
+./patch.sh [pre-patched apk file name]
+```
+
+"pre-patched" means that the APK does not need license in play market to work.
+
+It will replace class in APK: "com.microsoft.onlineid.internal.Application".
+
 ## Licensing
 ```
 This program is free software: you can redistribute it and/or modify
