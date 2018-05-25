@@ -75,7 +75,7 @@ step "Patching APK"
 cp $tmpDir/patched.dex $tmpDir/apk/classes.dex
 
 step "Unsigning APK"
-rm $tmpDir/apk/META-INF
+rm -r $tmpDir/apk/META-INF
 
 step "Building APK"
 runindir $tmpDir/apk "zip $tmpDir/patched.apk -r *"
